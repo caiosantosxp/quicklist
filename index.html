@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Compra</title>
+
+  <link rel="stylesheet" href="./style/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <img src="./assets/logo.svg" alt="">
+    <h1>quicklist</h1>
+  </header>
+  <main>
+    <div class="title">
+      <span>
+          Voltar
+      </span>
+      <h1>Compras da semana</h1>
+    </div>
+
+    <div class="new-item">
+      <input type="text" id="new-input" placeholder="Adicione um novo item">
+      <button id="new-button">Adicionar Item</button>
+    </div>
+
+    <section>
+    </section>
+    
+    <div class="danger hidden" >
+      <img class="icon-danger" src="./assets/danger.svg" alt="danger" />
+      <p>O item foi removido da lista</p>
+      <img class="close" src="./assets/close.svg" alt="delete" />
+    </div>
+  </main>
+  <script src="./scripts/index.js"></script>
+</body>
+</html>
